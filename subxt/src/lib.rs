@@ -19,7 +19,6 @@
     overflowing_literals,
     path_statements,
     patterns_in_fns_without_body,
-    private_in_public,
     unconditional_recursion,
     unused_allocation,
     unused_comparisons,
@@ -72,6 +71,8 @@ pub use crate::{
     error::Error,
     metadata::Metadata,
 };
+
+pub use jsonrpsee::core::Error as JsonRpseeError;
 
 /// Re-export external crates that are made use of in the subxt API.
 pub mod ext {
