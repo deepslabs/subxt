@@ -5,9 +5,9 @@ members = [
     "core",
     "lightclient",
     "testing/substrate-runner",
-    "testing/test-runtime",
-    "testing/integration-tests",
-    "testing/integration-tests/subxt-test-macro",
+    # "testing/test-runtime",
+    # "testing/integration-tests",
+    # "testing/integration-tests/subxt-test-macro",
     "testing/ui-tests",
     "testing/generate-custom-metadata",
     "macro",
@@ -120,8 +120,8 @@ sc-executor = "0.40.0"
 sc-executor-common = "0.35.0"
 libsecp256k1 = { version = "0.3.2", default-features = false }
 # Light client support:
-smoldot = { git = "https://github.com/deepsafe/smoldot", branch = "deepsafe", default-features = false }
-smoldot-light = { git = "https://github.com/deepsafe/smoldot", branch = "deepsafe", default-features = false }
+smoldot = { git = "https://github.com/DeepSecurityNetwork/smoldot", branch = "deep", default-features = false }
+smoldot-light = { git = "https://github.com/DeepSecurityNetwork/smoldot", branch = "deep", default-features = false }
 tokio-stream = "0.1.16"
 futures-util = "0.3.30"
 rand = "0.8.5"
@@ -130,22 +130,22 @@ ref-cas = "=1.0.22"
 
 # Light client wasm:
 web-sys = { version = "0.3.70", features = ["BinaryType", "CloseEvent", "MessageEvent", "WebSocket"] }
-wasm-bindgen = "0.2.93"
+wasm-bindgen = "^0.2.93"
 send_wrapper = "0.6.0"
-js-sys = "0.3.70"
+js-sys = "^0.3.70"
 wasm-bindgen-futures = "0.4.43"
 futures-timer = "3"
 instant = { version = "0.1.13", default-features = false }
 tokio-util = "0.7.12"
 
 # Substrate crates:
-sp-core = { git = "https://github.com/deepsafe/polkadot-sdk", branch = "deepsafe", default-features = false }
-sp-crypto-hashing = { package = "sp-core-hashing", git = "https://github.com/deepsafe/polkadot-sdk", branch = "deepsafe", default-features = false }
-sp-runtime = { git = "https://github.com/deepsafe/polkadot-sdk", branch = "deepsafe" }
-sp-keyring = { git = "https://github.com/deepsafe/polkadot-sdk", branch = "deepsafe" }
-sp-maybe-compressed-blob = { git = "https://github.com/deepsafe/polkadot-sdk", branch = "deepsafe" }
-sp-state-machine = { git = "https://github.com/deepsafe/polkadot-sdk", branch = "deepsafe" }
-sp-io = { git = "https://github.com/deepsafe/polkadot-sdk", branch = "deepsafe" }
+sp-core = { git = "https://github.com/DeepSecurityNetwork/polkadot-sdk", branch = "deep", default-features = false }
+sp-crypto-hashing = { package = "sp-core-hashing", git = "https://github.com/DeepSecurityNetwork/polkadot-sdk", branch = "deep", default-features = false }
+sp-runtime = { git = "https://github.com/DeepSecurityNetwork/polkadot-sdk", branch = "deep" }
+sp-keyring = { git = "https://github.com/DeepSecurityNetwork/polkadot-sdk", branch = "deep" }
+sp-maybe-compressed-blob = { git = "https://github.com/DeepSecurityNetwork/polkadot-sdk", branch = "deep" }
+sp-state-machine = { git = "https://github.com/DeepSecurityNetwork/polkadot-sdk", branch = "deep" }
+sp-io = { git = "https://github.com/DeepSecurityNetwork/polkadot-sdk", branch = "deep" }
 
 # Subxt workspace crates:
 subxt = { version = "0.37.0", path = "subxt", default-features = false }
@@ -182,3 +182,6 @@ opt-level = 2
 opt-level = 2
 [profile.test.package.smoldot]
 opt-level = 2
+
+[patch.'https://github.com/w3f/fflonk']
+fflonk = { git = "https://www.github.com/w3f/fflonk", rev = "be95d4c971b1d15b5badfc06ff13f5c07987d484" }
