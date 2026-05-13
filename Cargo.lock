@@ -3992,7 +3992,7 @@ dependencies = [
 [[package]]
 name = "occlum-ra"
 version = "0.1.0"
-source = "git+https://github.com/safexn/occlum-ra?branch=deep#13c252d8697c16d4271109e03e4c3b2713fed0cb"
+source = "git+https://github.com/DeepSecurityNetwork/occlum-ra?branch=deep#6bb6b7c7cbd892896489a83ab36ab18e123cdcb1"
 dependencies = [
  "base64 0.9.3",
  "bit-vec 0.6.3",
@@ -5707,7 +5707,7 @@ dependencies = [
 [[package]]
 name = "smoldot"
 version = "0.18.0"
-source = "git+https://github.com/safexn/smoldot?branch=deep#ccea733db96eb0821c9aa2dcbb1a9f0a5364cfca"
+source = "git+https://github.com/deepslabs/smoldot?branch=deep#ccea733db96eb0821c9aa2dcbb1a9f0a5364cfca"
 dependencies = [
  "arrayvec 0.7.6",
  "async-lock",
@@ -5762,7 +5762,7 @@ dependencies = [
 [[package]]
 name = "smoldot-light"
 version = "0.16.2"
-source = "git+https://github.com/safexn/smoldot?branch=deep#ccea733db96eb0821c9aa2dcbb1a9f0a5364cfca"
+source = "git+https://github.com/deepslabs/smoldot?branch=deep#ccea733db96eb0821c9aa2dcbb1a9f0a5364cfca"
 dependencies = [
  "async-channel",
  "async-lock",
@@ -5861,7 +5861,7 @@ dependencies = [
 [[package]]
 name = "sp-application-crypto"
 version = "23.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "parity-scale-codec",
  "scale-info",
@@ -5887,7 +5887,7 @@ dependencies = [
 [[package]]
 name = "sp-arithmetic"
 version = "16.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "integer-sqrt",
  "num-traits",
@@ -5934,7 +5934,7 @@ dependencies = [
 [[package]]
 name = "sp-core"
 version = "21.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "array-bytes",
  "bandersnatch_vrfs",
@@ -6027,7 +6027,7 @@ dependencies = [
 [[package]]
 name = "sp-core-hashing"
 version = "9.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "blake2b_simd",
  "byteorder",
@@ -6085,7 +6085,7 @@ dependencies = [
 [[package]]
 name = "sp-debug-derive"
 version = "8.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -6117,7 +6117,7 @@ dependencies = [
 [[package]]
 name = "sp-externalities"
 version = "0.19.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "environmental",
  "parity-scale-codec",
@@ -6149,7 +6149,7 @@ dependencies = [
 [[package]]
 name = "sp-io"
 version = "23.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "bytes",
  "ed25519-dalek",
@@ -6200,7 +6200,7 @@ dependencies = [
 [[package]]
 name = "sp-keyring"
 version = "24.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "sp-core 21.0.0",
  "sp-runtime 24.0.0",
@@ -6210,7 +6210,7 @@ dependencies = [
 [[package]]
 name = "sp-keystore"
 version = "0.27.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "parity-scale-codec",
  "parking_lot",
@@ -6234,7 +6234,7 @@ dependencies = [
 [[package]]
 name = "sp-maybe-compressed-blob"
 version = "4.1.0-dev"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "thiserror",
  "zstd 0.12.4",
@@ -6264,7 +6264,7 @@ dependencies = [
 [[package]]
 name = "sp-panic-handler"
 version = "8.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "backtrace",
  "lazy_static",
@@ -6284,7 +6284,7 @@ dependencies = [
 [[package]]
 name = "sp-runtime"
 version = "24.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "docify",
  "either",
@@ -6335,7 +6335,7 @@ dependencies = [
 [[package]]
 name = "sp-runtime-interface"
 version = "17.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "bytes",
  "impl-trait-for-tuples",
@@ -6391,7 +6391,7 @@ dependencies = [
 [[package]]
 name = "sp-runtime-interface-proc-macro"
 version = "11.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "Inflector",
  "expander",
@@ -6431,7 +6431,7 @@ dependencies = [
 [[package]]
 name = "sp-state-machine"
 version = "0.28.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "hash-db",
  "log",
@@ -6473,7 +6473,7 @@ dependencies = [
 [[package]]
 name = "sp-std"
 version = "8.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 
 [[package]]
 name = "sp-std"
@@ -6489,7 +6489,7 @@ source = "git+https://github.com/paritytech/polkadot-sdk#841c77b967af6ba4f2bb70e
 [[package]]
 name = "sp-storage"
 version = "13.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "impl-serde 0.4.0",
  "parity-scale-codec",
@@ -6527,7 +6527,7 @@ dependencies = [
 [[package]]
 name = "sp-tracing"
 version = "10.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "parity-scale-codec",
  "sp-std 8.0.0",
@@ -6563,7 +6563,7 @@ dependencies = [
 [[package]]
 name = "sp-trie"
 version = "22.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "ahash 0.8.12",
  "hash-db",
@@ -6641,7 +6641,7 @@ dependencies = [
 [[package]]
 name = "sp-wasm-interface"
 version = "14.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "anyhow",
  "impl-trait-for-tuples",
@@ -6678,7 +6678,7 @@ dependencies = [
 [[package]]
 name = "sp-weights"
 version = "20.0.0"
-source = "git+https://github.com/safexn/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
+source = "git+https://github.com/deepslabs/polkadot-sdk?branch=deep#acc55994ad5c8f032129b7a9f257642e6c3c5de8"
 dependencies = [
  "bounded-collections 0.1.9",
  "parity-scale-codec",
