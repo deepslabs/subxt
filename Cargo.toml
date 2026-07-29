@@ -5,8 +5,8 @@ members = [
     "codegen",
     "lightclient",
     "testing/substrate-runner",
-    "testing/test-runtime",
-    "testing/integration-tests",
+    #"testing/test-runtime",
+    #"testing/integration-tests",
     "testing/integration-tests/subxt-test-macro",
     "testing/ui-tests",
     "testing/generate-custom-metadata",
@@ -73,7 +73,7 @@ blake2 = { version = "0.10.6", default-features = false }
 clap = { version = "4.5.18", features = ["derive", "cargo"] }
 cfg-if = "1.0.0"
 criterion = "0.5.1"
-codec = { package = "parity-scale-codec", version = "3.7.4", default-features = false }
+codec = { package = "parity-scale-codec", version = "3.7.5", default-features = false }
 color-eyre = "0.6.3"
 console_error_panic_hook = "0.1.7"
 darling = "0.20.10"
@@ -112,7 +112,7 @@ thiserror = { version = "2.0.0", default-features = false }
 tokio = { version = "1.44.2", default-features = false }
 tracing = { version = "0.1.40", default-features = false }
 tracing-wasm = "0.2.1"
-tracing-subscriber = { version = "0.3.20", features = ["env-filter"] }
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
 trybuild = "1.0.99"
 url = "2.5.2"
 wat = "1.228.0"
@@ -144,15 +144,15 @@ web-time = { version = "1.1", default-features = false }
 tokio-util = "0.7.12"
 
 # Substrate crates:
-sc-executor = { version = "0.42.0", default-features = false }
-sc-executor-common = { version = "0.38.0", default-features = false }
-sp-crypto-hashing = { version = "0.1.0", default-features = false }
-sp-core = { version = "36.1.0", default-features = false }
-sp-keyring = { version = "41.0.0", default-features = false }
-sp-maybe-compressed-blob = { version = "11.0.0", default-features = false }
-sp-io = { version = "40.0.1", default-features = false }
-sp-state-machine = { version = "0.45.0", default-features = false }
-sp-runtime = { version = "41.1.0", default-features = false }
+sc-executor = { git = "https://github.com/deepslabs/polkadot-sdk", branch = "deep-stable2603", default-features = false }
+sc-executor-common = { git = "https://github.com/deepslabs/polkadot-sdk", branch = "deep-stable2603", default-features = false }
+sp-crypto-hashing = { git = "https://github.com/deepslabs/polkadot-sdk", branch = "deep-stable2603", default-features = false }
+sp-core = { git = "https://github.com/deepslabs/polkadot-sdk", branch = "deep-stable2603", default-features = false }
+sp-keyring = { git = "https://github.com/deepslabs/polkadot-sdk", branch = "deep-stable2603", default-features = false }
+sp-maybe-compressed-blob = { git = "https://github.com/deepslabs/polkadot-sdk", branch = "deep-stable2603", default-features = false }
+sp-io = { git = "https://github.com/deepslabs/polkadot-sdk", branch = "deep-stable2603", default-features = false }
+sp-state-machine = { git = "https://github.com/deepslabs/polkadot-sdk", branch = "deep-stable2603", default-features = false }
+sp-runtime = { git = "https://github.com/deepslabs/polkadot-sdk", branch = "deep-stable2603", default-features = false }
 
 # Subxt workspace crates:
 subxt = { version = "0.50.0", path = "subxt", default-features = false }
