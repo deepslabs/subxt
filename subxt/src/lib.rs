@@ -30,6 +30,7 @@
     unused_extern_crates,
     clippy::all
 )]
+#![allow(trivial_numeric_casts)]
 #![allow(clippy::type_complexity)]
 
 // The guide is here.

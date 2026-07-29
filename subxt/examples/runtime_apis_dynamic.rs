@@ -1,4 +1,4 @@
-use sp_keyring::AccountKeyring;
+use sp_keyring::Ed25519Keyring;
 use subxt::dynamic::Value;
 use subxt::{config::PolkadotConfig, OnlineClient};
 
@@ -12,7 +12,7 @@ async fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     // Create a dynamically runtime API payload that calls the
     // `AccountNonceApi_account_nonce` function.
-    let account = AccountKeyring::Alice.to_account_id();
+    let account = Ed25519Keyring::Alice.to_account_id();
     let runtime_api_call = subxt::dynamic::runtime_api_call(
         "AccountNonceApi",
         "account_nonce",

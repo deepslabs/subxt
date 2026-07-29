@@ -183,14 +183,14 @@ mod test {
     use super::*;
 
     use sp_core::crypto::Ss58Codec;
-    use sp_keyring::AccountKeyring;
+    use sp_keyring::Ed25519Keyring;
 
     #[test]
     fn ss58_is_compatible_with_substrate_impl() {
         let keyrings = vec![
-            AccountKeyring::Alice,
-            AccountKeyring::Bob,
-            AccountKeyring::Charlie,
+            Ed25519Keyring::Alice,
+            Ed25519Keyring::Bob,
+            Ed25519Keyring::Charlie,
         ];
 
         for keyring in keyrings {

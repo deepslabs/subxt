@@ -31,6 +31,7 @@ mod substrate_impls {
                 sp_runtime::MultiSignature::Ed25519(s) => Self::Ed25519(s.0),
                 sp_runtime::MultiSignature::Sr25519(s) => Self::Sr25519(s.0),
                 sp_runtime::MultiSignature::Ecdsa(s) => Self::Ecdsa(s.0),
+                sp_runtime::MultiSignature::Eth(s) => Self::Ecdsa(s.0),
             }
         }
     }
