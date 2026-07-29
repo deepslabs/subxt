@@ -116,7 +116,7 @@ impl<T: Config, E: extrinsic_params::ExtrinsicParams<T::Index, T::Hash>> Config
 #[cfg(feature = "substrate-compat")]
 mod substrate_impls {
     use super::*;
-    use primitive_types::{H256, U256};
+    use sp_core::{H256, U256};
 
     impl<N, H> Header for sp_runtime::generic::Header<N, H>
     where
